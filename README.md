@@ -45,7 +45,8 @@ Username and password will be prompted.
 If you want to download organization repositories
 
 ```
-python3 -m gitim -o <Organization> -d <Directory>
+export ACCESS_TOKEN=AAAA
+python3 -m gitim -o V-Sekai -d V-Sekai-godot-gitm-`date --iso=date --utc` --ssh --token $ACCESS_TOKEN
 ```
 
 #### Optional Arguments
